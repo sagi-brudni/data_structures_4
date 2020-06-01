@@ -9,8 +9,8 @@ public class BTree<T extends Comparable<T>> {
     // Default to 2-3 Tree
     private int minKeySize = 1;
     private int minChildrenSize = minKeySize + 1; // 2
-    private int maxKeySize = 2 * minKeySize; // 2
-    private int maxChildrenSize = maxKeySize + 1; // 3
+    private int maxKeySize = 2 * minKeySize + 1; // 3
+    private int maxChildrenSize = maxKeySize + 1; // 4
 
     private Node<T> root = null;
     private int size = 0;
@@ -28,9 +28,9 @@ public class BTree<T extends Comparable<T>> {
      *            of the B-Tree.
      */
     public BTree(int order) {
-        this.minKeySize = order;
+        this.minKeySize = order - 1;
         this.minChildrenSize = minKeySize + 1;
-        this.maxKeySize = 2 * minKeySize;
+        this.maxKeySize = 2 * order - 1;
         this.maxChildrenSize = maxKeySize + 1;
     }
     
@@ -46,7 +46,7 @@ public class BTree<T extends Comparable<T>> {
             Node<T> node = root;
             while (node != null)
             {
-                if (node.keysSize == maxKeySize - 1)
+                if (node.keysSize == maxKeySize)
                     node = split(node);
 
                 if (node.numberOfChildren() == 0) // if is leaf
