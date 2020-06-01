@@ -4,7 +4,14 @@ public class Main {
 
     public static void main(String[] args)
     {
-	// write your code here
-        System.out.println("Hello world");
+        BTree<Integer> generatedTree = new BTree<Integer>(2);
+        generatedTree.insert(70);
+        generatedTree.insert(13);
+        generatedTree.insert(63);
+        generatedTree.insert(73);
+        generatedTree.insert(49);
+        generatedTree.insert(11);
+        generatedTree.insert(98);
+        System.out.println(generatedTree);
     }
 }
