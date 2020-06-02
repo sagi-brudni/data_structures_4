@@ -92,11 +92,77 @@ public class BTree<T extends Comparable<T>> {
     public T delete(T value) {
         T removed = null;
         Node<T> node = this.getNode(value);
-        removed = remove(value,node);
+        removed = delete(value,node);
         return removed;
     }
-    
-	//Task 2.2
+
+    private T delete(T value, Node<T> node)
+    {
+        if (node == null) return null;
+
+        T removed = null;
+        int index = node.indexOf(value);
+        if(node.numberOfChildren() == 0)
+        {
+            // leaf
+            if (node.parent != null && node.numberOfKeys() == minKeySize)
+            {
+                this.combined(node);
+            } else if (node.parent == null && node.numberOfKeys() == 1)
+            {
+                // Removing root node with no keys or children
+                root = null;
+            }
+        }
+        else
+        {
+            Node<T> left = node.getChild(index);
+            Node<T> right = node.getChild(index + 1);
+            if(left.numberOfKeys() >= minKeySize + 1)
+            {
+                // remove predecessor
+                Node<T> greatest = this.getGreatestNode(left); // predecessor
+                T replaceValue = this.removeGreatestValue(greatest);
+                node.addKey(replaceValue);
+            }
+            else if(right.numberOfKeys() >= minKeySize + 1)
+            {
+                Node<T> successor = this.getSuccessorNode(right); // predecessor
+                T replaceValue = this.removeSuccessorValue(successor);
+                node.addKey(replaceValue);
+            }
+            else
+            {
+                this.combined(left);
+                //delete(value,node);
+            }
+        }
+
+        size--;
+        removed = node.removeKey(value);
+        return removed;
+    }
+
+    private T removeSuccessorValue(Node<T> node)
+    {
+        T value = null;
+        if (node.numberOfKeys() > 0) {
+            value = node.removeKey(0);
+        }
+        return value;
+    }
+
+    private Node<T> getSuccessorNode(Node<T> nodeToGet)
+    {
+        Node<T> node = nodeToGet;
+        while (node.numberOfChildren() > 0) {
+            node = node.getChild(0);
+        }
+        return node;
+    }
+
+
+    //Task 2.2
     public boolean insert2pass(T value) {
     	// TODO: implement your code here
 		return false;
