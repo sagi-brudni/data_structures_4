@@ -91,7 +91,7 @@ public class BTree<T extends Comparable<T>> {
 	
     public T delete(T value) {
         T removed = null;
-        Node<T> node = this.getNode(value);
+        Node<T> node = this.getNodeAndCombine(value);
         removed = delete(value,node);
         return removed;
     }
@@ -330,6 +330,59 @@ public class BTree<T extends Comparable<T>> {
         size--;
 
         return removed;
+    }
+
+    private Node<T> getNodeAndCombine(T value) {
+        Node<T> node = root;
+        while (node != null) {
+            T lesser = node.getKey(0);
+            if (value.compareTo(lesser) < 0) {
+                if (node.numberOfChildren() > 0)
+                {
+                    node = node.getChild(0);
+                    if (node.numberOfKeys() == minKeySize)
+                        combined(node);
+                }
+                else
+                    node = null;
+                continue;
+            }
+
+            int numberOfKeys = node.numberOfKeys();
+            int last = numberOfKeys - 1;
+            T greater = node.getKey(last);
+            if (value.compareTo(greater) > 0) {
+                if (node.numberOfChildren() > numberOfKeys)
+                {
+                    node = node.getChild(numberOfKeys);
+                    if (node.numberOfKeys() == minKeySize)
+                        combined(node);
+                }
+                else
+                    node = null;
+                continue;
+            }
+
+            for (int i = 0; i < numberOfKeys; i++) {
+                T currentValue = node.getKey(i);
+                if (currentValue.compareTo(value) == 0) {
+                    return node;
+                }
+
+                int next = i + 1;
+                if (next <= last) {
+                    T nextValue = node.getKey(next);
+                    if (currentValue.compareTo(value) < 0 && nextValue.compareTo(value) > 0) {
+                        if (next < node.numberOfChildren()) {
+                            node = node.getChild(next);
+                            break;
+                        }
+                        return null;
+                    }
+                }
+            }
+        }
+        return null;
     }
 
     /**
