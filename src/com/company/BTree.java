@@ -134,8 +134,9 @@ public class BTree<T extends Comparable<T>> {
             }
             else
             {
-                this.merge(left);
-                node = left;
+
+                this.merge(right);
+                node = right;
             }
         }
 
@@ -503,32 +504,9 @@ public class BTree<T extends Comparable<T>> {
             leftNeighbor = parent.getChild(indexOfLeftNeighbor);
             leftNeighborSize = leftNeighbor.numberOfKeys();
         }
-        if (rightNeighbor != null && parent.numberOfKeys() > 0) {
-            // Can't borrow from neighbors, try to combined with right neighbor
-            T removeValue = rightNeighbor.getKey(0);
-            int prev = getIndexOfPreviousValue(parent, removeValue);
-            T parentValue = parent.removeKey(prev);
-            parent.removeChild(rightNeighbor);
-            node.addKey(parentValue);
-            for (int i = 0; i < rightNeighbor.keysSize; i++) {
-                T v = rightNeighbor.getKey(i);
-                node.addKey(v);
-            }
-            for (int i = 0; i < rightNeighbor.childrenSize; i++) {
-                Node<T> c = rightNeighbor.getChild(i);
-                node.addChild(c);
-            }
 
-            if (parent.parent != null && parent.numberOfKeys() < minKeySize) {
-                // removing key made parent too small, combined up tree
-                this.combined(parent);
-            } else if (parent.numberOfKeys() == 0) {
-                // parent no longer has keys, make this node the new root
-                // which decreases the height of the tree
-                node.parent = null;
-                root = node;
-            }
-        } else if (leftNeighbor != null && parent.numberOfKeys() > 0) {
+
+        if (leftNeighbor != null && parent.numberOfKeys() > 0) {
             // Can't borrow from neighbors, try to combined with left neighbor
             T removeValue = leftNeighbor.getKey(leftNeighbor.numberOfKeys() - 1);
             int prev = getIndexOfNextValue(parent, removeValue);
@@ -541,6 +519,33 @@ public class BTree<T extends Comparable<T>> {
             }
             for (int i = 0; i < leftNeighbor.childrenSize; i++) {
                 Node<T> c = leftNeighbor.getChild(i);
+                node.addChild(c);
+            }
+
+            if (parent.parent != null && parent.numberOfKeys() < minKeySize) {
+                // removing key made parent too small, combined up tree
+                this.combined(parent);
+            } else if (parent.numberOfKeys() == 0) {
+                // parent no longer has keys, make this node the new root
+                // which decreases the height of the tree
+                node.parent = null;
+                root = node;
+            }
+        }
+        else if (rightNeighbor != null && parent.numberOfKeys() > 0)
+        {
+            // Can't borrow from neighbors, try to combined with right neighbor
+            T removeValue = rightNeighbor.getKey(0);
+            int prev = getIndexOfPreviousValue(parent, removeValue);
+            T parentValue = parent.removeKey(prev);
+            parent.removeChild(rightNeighbor);
+            node.addKey(parentValue);
+            for (int i = 0; i < rightNeighbor.keysSize; i++) {
+                T v = rightNeighbor.getKey(i);
+                node.addKey(v);
+            }
+            for (int i = 0; i < rightNeighbor.childrenSize; i++) {
+                Node<T> c = rightNeighbor.getChild(i);
                 node.addChild(c);
             }
 

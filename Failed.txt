@@ -1,42 +1,116 @@
-START - TEST 43
+START - TEST 17
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
-generatedTree.insert(81);
-generatedTree.insert(49);
-generatedTree.insert(23);
+generatedTree.insert(35);
+generatedTree.insert(66);
+generatedTree.insert(30);
+generatedTree.insert(47);
+generatedTree.insert(91);
+generatedTree.insert(57);
+generatedTree.insert(88);
+generatedTree.insert(67);
+generatedTree.insert(50);
+generatedTree.insert(94);
+------------------------------
+
+└── 35, 66, 88
+    ├── 30
+    ├── 47, 50, 57
+    ├── 67
+    └── 91, 94
+
+------------------------------
+
+generatedTree.delete(91)
+generatedTree.delete(66)
+generatedTree.delete(88)
+
+------------------------------
+
+└── 35, 57
+    ├── 30
+    ├── 47, 50
+    └── 67, 94
+
+
+------------------------------
+
+END - TEST 17
+
+
+
+START - TEST 30
+------------------------------
+BTree<Integer> generatedTree = new BTree<Integer>(2);
+generatedTree.insert(43);
+generatedTree.insert(15);
+generatedTree.insert(13);
+generatedTree.insert(14);
+generatedTree.insert(79);
 generatedTree.insert(60);
-generatedTree.insert(54);
-generatedTree.insert(61);
-generatedTree.insert(99);
+generatedTree.insert(22);
+------------------------------
+
+└── 15, 60
+    ├── 13, 14
+    ├── 22, 43
+    └── 79
+
+------------------------------
+
+generatedTree.delete(22)
+generatedTree.delete(60)
+
+------------------------------
+
+└── 15
+    ├── 13, 14
+    └── 43, 79
+
+
+------------------------------
+
+END - TEST 30
+
+
+
+START - TEST 56
+------------------------------
+BTree<Integer> generatedTree = new BTree<Integer>(2);
+generatedTree.insert(41);
+generatedTree.insert(28);
+generatedTree.insert(89);
+generatedTree.insert(82);
 generatedTree.insert(97);
-generatedTree.insert(38);
+generatedTree.insert(69);
+generatedTree.insert(32);
+generatedTree.insert(61);
+generatedTree.insert(64);
 ------------------------------
 
-└── 60
-    ├── 49
-    │   ├── 23, 38
-    │   └── 54
-    └── 81
-        ├── 61
-        └── 97, 99
+└── 41, 69, 89
+    ├── 28, 32
+    ├── 61, 64
+    ├── 82
+    └── 97
 
 ------------------------------
 
-generatedTree.delete(38)
-generatedTree.delete(99)
 generatedTree.delete(61)
+generatedTree.delete(89)
+generatedTree.delete(82)
 
 ------------------------------
 
-└── 49, 81
-    ├── 23
-    ├── 54, 60
+└── 41, 69
+    ├── 28, 32
+    ├── 64
     └── 97
 
 
 ------------------------------
 
-END - TEST 43
+END - TEST 56
 
 
 
