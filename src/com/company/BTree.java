@@ -166,10 +166,141 @@ public class BTree<T extends Comparable<T>> {
 
     //Task 2.2
     public boolean insert2pass(T value) {
-    	// TODO: implement your code here
-		return false;
+        if (root == null)
+        {
+            root = new Node<T>(null, maxKeySize, maxChildrenSize);
+            root.addKey(value);
+        }
+        else
+        {
+            Node<T> node = root;
+            Node<T> node_to_insert = null;
+            while (node != null)
+            {
+               // if (node.keysSize == maxKeySize)
+                 //   node = split(node);
+
+                if (node.numberOfChildren() == 0) // if is leaf
+                {
+                    //if (node.keysSize == maxKeySize)
+                     //   node = split(node);
+                    //node_to_insert = node;
+                    break;
+                }
+                // Navigate
+
+                // Lesser or equal
+                T lesser = node.getKey(0);
+                if (value.compareTo(lesser) <= 0) {
+                    node = node.getChild(0);
+                    continue;
+                }
+
+                // Greater
+                int numberOfKeys = node.numberOfKeys();
+                int last = numberOfKeys - 1;
+                T greater = node.getKey(last);
+                if (value.compareTo(greater) > 0) {
+                    node = node.getChild(numberOfKeys);
+                    continue;
+                }
+
+                // Search internal nodes
+                for (int i = 1; i < node.numberOfKeys(); i++) {
+                    T prev = node.getKey(i - 1);
+                    T next = node.getKey(i);
+                    if (value.compareTo(prev) > 0 && value.compareTo(next) <= 0) {
+                        node = node.getChild(i);
+                        break;
+                    }
+                }
+            }
+
+            while (true)
+            {
+                if (node.keysSize == maxKeySize && node.parent != null)
+                {
+                    node = node.parent;
+                }
+                else break;
+
+            }
+
+            try_insert(node, value);
+
+            //node_to_insert = split2pass(node, value);
+            //node_to_insert.addKey(value);
+        }
+
+        size++;
+
+        return true;
     }
-    
+
+    private boolean try_insert(Node<T> head, T value)
+    {
+        if (head == null)
+        {
+            head = new Node<T>(null, maxKeySize, maxChildrenSize);
+            head.addKey(value);
+        }
+        else
+        {
+            Node<T> node = head;
+            while (node != null)
+            {
+                if (node.keysSize == maxKeySize)
+                    node = split(node);
+
+                if (node.numberOfChildren() == 0) // if is leaf
+                {
+                    node.addKey(value);
+                    break;
+                }
+                // Navigate
+
+                // Lesser or equal
+                T lesser = node.getKey(0);
+                if (value.compareTo(lesser) <= 0) {
+                    node = node.getChild(0);
+                    continue;
+                }
+
+                // Greater
+                int numberOfKeys = node.numberOfKeys();
+                int last = numberOfKeys - 1;
+                T greater = node.getKey(last);
+                if (value.compareTo(greater) > 0) {
+                    node = node.getChild(numberOfKeys);
+                    continue;
+                }
+
+                // Search internal nodes
+                for (int i = 1; i < node.numberOfKeys(); i++) {
+                    T prev = node.getKey(i - 1);
+                    T next = node.getKey(i);
+                    if (value.compareTo(prev) > 0 && value.compareTo(next) <= 0) {
+                        node = node.getChild(i);
+                        break;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+    private Node<T> split2pass(Node<T> node, T value)
+    {
+        if (node.keysSize != maxKeySize)
+            return node;
+
+        if (node.parent != null)
+            split2pass(node.parent, value);
+
+        node = split(node);
+        return node;
+    }
+
     /**
      * {@inheritDoc}
      */
@@ -377,6 +508,8 @@ public class BTree<T extends Comparable<T>> {
                     if (currentValue.compareTo(value) < 0 && nextValue.compareTo(value) > 0) {
                         if (next < node.numberOfChildren()) {
                             node = node.getChild(next);
+                            if (node.numberOfKeys() == minKeySize)
+                                combined(node);
                             break;
                         }
                         return null;
