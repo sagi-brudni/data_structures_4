@@ -154,7 +154,7 @@ public class BTree<T extends Comparable<T>> {
                 break; // end loop
             }
 
-            node = navigate(node, value);
+            node = navigate(node, value); // find where to insert the value
         }
 
         while (node != null) // ascent until we find the first node that we need to split
@@ -166,7 +166,6 @@ public class BTree<T extends Comparable<T>> {
                 break; // found the node that contains less than 2t-1 keys in the path to the place we need to insert the value
         }
         insertFromNode(node, value); // insert in 1-pass from the node we found the first parent that contains less then 2t-1 keys
-
         size++; // the tree's size increased by 1
         return true;
     }
@@ -199,16 +198,23 @@ public class BTree<T extends Comparable<T>> {
                     node.addKey(value); // adding the key to the node's keys
                     break;
                 }
-
-                node = navigate(node, value);
+                node = navigate(node, value); // find where to insert the value
             }
         }
         return true;
     }
 
+    /**
+     * Navigate to the node that will contain the value, based on the node's keys and the given value
+     *
+     * @param value
+     *            The new key we want to insert and fins its node.
+     * @param node
+     *            The beginning node of the search
+     */
     private Node<T> navigate(Node<T> node, T value)
     {
-        // Navigate - right or left in the tree
+        // Navigate
 
         // Lesser or equal
         T lesser = node.getKey(0);
