@@ -229,7 +229,7 @@ public class BTree<T extends Comparable<T>> {
 
             }
 
-            try_insert(node, value);
+            insertFromNode(node, value);
 
             //node_to_insert = split2pass(node, value);
             //node_to_insert.addKey(value);
@@ -240,7 +240,7 @@ public class BTree<T extends Comparable<T>> {
         return true;
     }
 
-    private boolean try_insert(Node<T> head, T value)
+    private boolean insertFromNode(Node<T> head, T value)
     {
         if (head == null)
         {
