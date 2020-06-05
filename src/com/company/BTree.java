@@ -125,18 +125,21 @@ public class BTree<T extends Comparable<T>> {
                 Node<T> predecessor = this.getGreatestNode(left); // predecessor
                 T replaceValue = this.delete(predecessor.keys[predecessor.numberOfKeys() - 1], predecessor);
                 node.addKey(replaceValue);
+                size++;
             }
             else if(right.numberOfKeys() >= minKeySize + 1)
             {
                 Node<T> successor = this.getSuccessorNode(right); // successor
                 T replaceValue = this.delete(successor.keys[0], successor);
                 node.addKey(replaceValue);
+                size++;
             }
             else
             {
-
                 this.merge(right);
                 node = right;
+                removed = this.delete(value, node);
+                return removed;
             }
         }
 
