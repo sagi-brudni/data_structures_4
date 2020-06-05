@@ -1,5 +1,3 @@
-
-
 START - TEST 0
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -50,6 +48,7 @@ generatedTree.delete(91)
 END - TEST 0
 
 
+
 START - TEST 1
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -90,6 +89,7 @@ generatedTree.delete(34)
 END - TEST 1
 
 
+
 START - TEST 2
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -123,6 +123,7 @@ generatedTree.delete(40)
 END - TEST 2
 
 
+
 START - TEST 3
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -152,6 +153,7 @@ generatedTree.delete(16)
 ------------------------------
 
 END - TEST 3
+
 
 
 START - TEST 4
@@ -203,6 +205,7 @@ generatedTree.delete(45)
 END - TEST 4
 
 
+
 START - TEST 5
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -234,6 +237,7 @@ generatedTree.delete(38)
 ------------------------------
 
 END - TEST 5
+
 
 
 START - TEST 6
@@ -293,6 +297,7 @@ generatedTree.delete(51)
 END - TEST 6
 
 
+
 START - TEST 7
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -324,6 +329,7 @@ generatedTree.delete(97)
 ------------------------------
 
 END - TEST 7
+
 
 
 START - TEST 8
@@ -381,6 +387,7 @@ generatedTree.delete(83)
 END - TEST 8
 
 
+
 START - TEST 9
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -425,6 +432,7 @@ generatedTree.delete(69)
 END - TEST 9
 
 
+
 START - TEST 10
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -459,6 +467,7 @@ generatedTree.delete(40)
 ------------------------------
 
 END - TEST 10
+
 
 
 START - TEST 11
@@ -496,6 +505,7 @@ generatedTree.delete(87)
 END - TEST 11
 
 
+
 START - TEST 12
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -529,6 +539,7 @@ generatedTree.delete(74)
 ------------------------------
 
 END - TEST 12
+
 
 
 START - TEST 13
@@ -587,6 +598,7 @@ generatedTree.delete(11)
 END - TEST 13
 
 
+
 START - TEST 14
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -628,6 +640,7 @@ generatedTree.delete(65)
 END - TEST 14
 
 
+
 START - TEST 15
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -660,6 +673,7 @@ generatedTree.delete(11)
 ------------------------------
 
 END - TEST 15
+
 
 
 START - TEST 16
@@ -701,6 +715,7 @@ generatedTree.delete(90)
 END - TEST 16
 
 
+
 START - TEST 17
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -732,6 +747,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 17
+
 
 
 START - TEST 18
@@ -769,6 +785,7 @@ generatedTree.delete(37)
 ------------------------------
 
 END - TEST 18
+
 
 
 START - TEST 19
@@ -813,6 +830,7 @@ generatedTree.delete(13)
 ------------------------------
 
 END - TEST 19
+
 
 
 START - TEST 20
@@ -867,6 +885,7 @@ generatedTree.delete(30)
 END - TEST 20
 
 
+
 START - TEST 21
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -904,6 +923,7 @@ generatedTree.delete(40)
 END - TEST 21
 
 
+
 START - TEST 22
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -937,6 +957,7 @@ generatedTree.delete(89)
 ------------------------------
 
 END - TEST 22
+
 
 
 START - TEST 23
@@ -994,6 +1015,7 @@ generatedTree.delete(86)
 END - TEST 23
 
 
+
 START - TEST 24
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1026,6 +1048,7 @@ generatedTree.delete(41)
 ------------------------------
 
 END - TEST 24
+
 
 
 START - TEST 25
@@ -1079,6 +1102,7 @@ generatedTree.delete(92)
 END - TEST 25
 
 
+
 START - TEST 26
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1112,6 +1136,7 @@ generatedTree.delete(38)
 ------------------------------
 
 END - TEST 26
+
 
 
 START - TEST 27
@@ -1175,6 +1200,7 @@ generatedTree.delete(80)
 END - TEST 27
 
 
+
 START - TEST 28
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1203,6 +1229,7 @@ generatedTree.delete(91)
 ------------------------------
 
 END - TEST 28
+
 
 
 START - TEST 29
@@ -1242,6 +1269,7 @@ generatedTree.delete(24)
 ------------------------------
 
 END - TEST 29
+
 
 
 START - TEST 30
@@ -1291,6 +1319,7 @@ generatedTree.delete(28)
 END - TEST 30
 
 
+
 START - TEST 31
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1335,6 +1364,7 @@ generatedTree.delete(88)
 ------------------------------
 
 END - TEST 31
+
 
 
 START - TEST 32
@@ -1392,6 +1422,7 @@ generatedTree.delete(49)
 END - TEST 32
 
 
+
 START - TEST 33
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1438,6 +1469,7 @@ generatedTree.delete(73)
 ------------------------------
 
 END - TEST 33
+
 
 
 START - TEST 34
@@ -1502,6 +1534,7 @@ generatedTree.delete(32)
 END - TEST 34
 
 
+
 START - TEST 35
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1553,6 +1586,7 @@ generatedTree.delete(41)
 END - TEST 35
 
 
+
 START - TEST 36
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1601,6 +1635,7 @@ generatedTree.delete(89)
 END - TEST 36
 
 
+
 START - TEST 37
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1636,6 +1671,7 @@ generatedTree.delete(61)
 ------------------------------
 
 END - TEST 37
+
 
 
 START - TEST 38
@@ -1676,6 +1712,7 @@ generatedTree.delete(55)
 END - TEST 38
 
 
+
 START - TEST 39
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1708,6 +1745,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 39
+
 
 
 START - TEST 40
@@ -1758,6 +1796,7 @@ generatedTree.delete(53)
 ------------------------------
 
 END - TEST 40
+
 
 
 START - TEST 41
@@ -1818,6 +1857,7 @@ generatedTree.delete(92)
 END - TEST 41
 
 
+
 START - TEST 42
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1868,6 +1908,7 @@ generatedTree.delete(33)
 END - TEST 42
 
 
+
 START - TEST 43
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1911,6 +1952,7 @@ generatedTree.delete(81)
 END - TEST 43
 
 
+
 START - TEST 44
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -1945,6 +1987,7 @@ generatedTree.delete(48)
 ------------------------------
 
 END - TEST 44
+
 
 
 START - TEST 45
@@ -1997,6 +2040,7 @@ generatedTree.delete(63)
 ------------------------------
 
 END - TEST 45
+
 
 
 START - TEST 46
@@ -2062,6 +2106,7 @@ generatedTree.delete(79)
 END - TEST 46
 
 
+
 START - TEST 47
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2110,6 +2155,7 @@ generatedTree.delete(52)
 ------------------------------
 
 END - TEST 47
+
 
 
 START - TEST 48
@@ -2173,6 +2219,7 @@ generatedTree.delete(99)
 END - TEST 48
 
 
+
 START - TEST 49
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2204,6 +2251,7 @@ generatedTree.delete(54)
 ------------------------------
 
 END - TEST 49
+
 
 
 START - TEST 50
@@ -2247,6 +2295,7 @@ generatedTree.delete(57)
 ------------------------------
 
 END - TEST 50
+
 
 
 START - TEST 51
@@ -2302,6 +2351,7 @@ generatedTree.delete(22)
 END - TEST 51
 
 
+
 START - TEST 52
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2337,6 +2387,7 @@ generatedTree.delete(59)
 ------------------------------
 
 END - TEST 52
+
 
 
 START - TEST 53
@@ -2393,6 +2444,7 @@ generatedTree.delete(93)
 END - TEST 53
 
 
+
 START - TEST 54
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2446,6 +2498,7 @@ generatedTree.delete(63)
 END - TEST 54
 
 
+
 START - TEST 55
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2496,6 +2549,7 @@ generatedTree.delete(43)
 END - TEST 55
 
 
+
 START - TEST 56
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2533,6 +2587,7 @@ generatedTree.delete(23)
 ------------------------------
 
 END - TEST 56
+
 
 
 START - TEST 57
@@ -2584,6 +2639,7 @@ generatedTree.delete(71)
 END - TEST 57
 
 
+
 START - TEST 58
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2619,6 +2675,7 @@ generatedTree.delete(60)
 ------------------------------
 
 END - TEST 58
+
 
 
 START - TEST 59
@@ -2672,6 +2729,7 @@ generatedTree.delete(14)
 ------------------------------
 
 END - TEST 59
+
 
 
 START - TEST 60
@@ -2736,6 +2794,7 @@ generatedTree.delete(17)
 END - TEST 60
 
 
+
 START - TEST 61
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2765,6 +2824,7 @@ generatedTree.delete(47)
 ------------------------------
 
 END - TEST 61
+
 
 
 START - TEST 62
@@ -2814,6 +2874,7 @@ generatedTree.delete(61)
 ------------------------------
 
 END - TEST 62
+
 
 
 START - TEST 63
@@ -2873,6 +2934,7 @@ generatedTree.delete(67)
 END - TEST 63
 
 
+
 START - TEST 64
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -2904,6 +2966,7 @@ generatedTree.delete(25)
 ------------------------------
 
 END - TEST 64
+
 
 
 START - TEST 65
@@ -2945,6 +3008,7 @@ generatedTree.delete(33)
 ------------------------------
 
 END - TEST 65
+
 
 
 START - TEST 66
@@ -2991,6 +3055,7 @@ generatedTree.delete(54)
 END - TEST 66
 
 
+
 START - TEST 67
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3028,6 +3093,7 @@ generatedTree.delete(99)
 ------------------------------
 
 END - TEST 67
+
 
 
 START - TEST 68
@@ -3094,6 +3160,7 @@ generatedTree.delete(80)
 END - TEST 68
 
 
+
 START - TEST 69
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3131,6 +3198,7 @@ generatedTree.delete(78)
 ------------------------------
 
 END - TEST 69
+
 
 
 START - TEST 70
@@ -3185,6 +3253,7 @@ generatedTree.delete(81)
 END - TEST 70
 
 
+
 START - TEST 71
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3223,6 +3292,7 @@ generatedTree.delete(74)
 ------------------------------
 
 END - TEST 71
+
 
 
 START - TEST 72
@@ -3278,6 +3348,7 @@ generatedTree.delete(91)
 END - TEST 72
 
 
+
 START - TEST 73
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3306,6 +3377,7 @@ generatedTree.delete(29)
 ------------------------------
 
 END - TEST 73
+
 
 
 START - TEST 74
@@ -3344,6 +3416,7 @@ generatedTree.delete(45)
 END - TEST 74
 
 
+
 START - TEST 75
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3377,6 +3450,7 @@ generatedTree.delete(79)
 ------------------------------
 
 END - TEST 75
+
 
 
 START - TEST 76
@@ -3426,6 +3500,7 @@ generatedTree.delete(37)
 END - TEST 76
 
 
+
 START - TEST 77
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3470,6 +3545,7 @@ generatedTree.delete(86)
 END - TEST 77
 
 
+
 START - TEST 78
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3499,6 +3575,7 @@ generatedTree.delete(21)
 ------------------------------
 
 END - TEST 78
+
 
 
 START - TEST 79
@@ -3548,6 +3625,7 @@ generatedTree.delete(96)
 ------------------------------
 
 END - TEST 79
+
 
 
 START - TEST 80
@@ -3601,6 +3679,7 @@ generatedTree.delete(31)
 END - TEST 80
 
 
+
 START - TEST 81
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3636,6 +3715,7 @@ generatedTree.delete(19)
 ------------------------------
 
 END - TEST 81
+
 
 
 START - TEST 82
@@ -3691,6 +3771,7 @@ generatedTree.delete(80)
 END - TEST 82
 
 
+
 START - TEST 83
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3728,6 +3809,7 @@ generatedTree.delete(46)
 END - TEST 83
 
 
+
 START - TEST 84
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3762,6 +3844,7 @@ generatedTree.delete(59)
 ------------------------------
 
 END - TEST 84
+
 
 
 START - TEST 85
@@ -3806,6 +3889,7 @@ generatedTree.delete(32)
 END - TEST 85
 
 
+
 START - TEST 86
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3834,6 +3918,7 @@ generatedTree.delete(17)
 ------------------------------
 
 END - TEST 86
+
 
 
 START - TEST 87
@@ -3900,6 +3985,7 @@ generatedTree.delete(35)
 END - TEST 87
 
 
+
 START - TEST 88
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3960,6 +4046,7 @@ generatedTree.delete(33)
 END - TEST 88
 
 
+
 START - TEST 89
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -3994,6 +4081,7 @@ generatedTree.delete(52)
 ------------------------------
 
 END - TEST 89
+
 
 
 START - TEST 90
@@ -4045,6 +4133,7 @@ generatedTree.delete(92)
 END - TEST 90
 
 
+
 START - TEST 91
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4080,6 +4169,7 @@ generatedTree.delete(96)
 END - TEST 91
 
 
+
 START - TEST 92
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4113,6 +4203,7 @@ generatedTree.delete(90)
 ------------------------------
 
 END - TEST 92
+
 
 
 START - TEST 93
@@ -4167,6 +4258,7 @@ generatedTree.delete(83)
 END - TEST 93
 
 
+
 START - TEST 94
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4201,6 +4293,7 @@ generatedTree.delete(39)
 ------------------------------
 
 END - TEST 94
+
 
 
 START - TEST 95
@@ -4238,6 +4331,7 @@ generatedTree.delete(19)
 ------------------------------
 
 END - TEST 95
+
 
 
 START - TEST 96
@@ -4302,6 +4396,7 @@ generatedTree.delete(39)
 END - TEST 96
 
 
+
 START - TEST 97
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4350,6 +4445,7 @@ generatedTree.delete(29)
 END - TEST 97
 
 
+
 START - TEST 98
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4396,6 +4492,7 @@ generatedTree.delete(82)
 ------------------------------
 
 END - TEST 98
+
 
 
 START - TEST 99
@@ -4458,6 +4555,7 @@ generatedTree.delete(87)
 END - TEST 99
 
 
+
 START - TEST 100
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4505,6 +4603,7 @@ generatedTree.delete(53)
 ------------------------------
 
 END - TEST 100
+
 
 
 START - TEST 101
@@ -4555,6 +4654,7 @@ generatedTree.delete(81)
 END - TEST 101
 
 
+
 START - TEST 102
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4600,6 +4700,7 @@ generatedTree.delete(84)
 ------------------------------
 
 END - TEST 102
+
 
 
 START - TEST 103
@@ -4659,6 +4760,7 @@ generatedTree.delete(48)
 END - TEST 103
 
 
+
 START - TEST 104
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4688,6 +4790,7 @@ generatedTree.delete(55)
 ------------------------------
 
 END - TEST 104
+
 
 
 START - TEST 105
@@ -4756,6 +4859,7 @@ generatedTree.delete(39)
 END - TEST 105
 
 
+
 START - TEST 106
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4811,6 +4915,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 106
+
 
 
 START - TEST 107
@@ -4870,6 +4975,7 @@ generatedTree.delete(69)
 END - TEST 107
 
 
+
 START - TEST 108
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4914,6 +5020,7 @@ generatedTree.delete(35)
 END - TEST 108
 
 
+
 START - TEST 109
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -4953,6 +5060,7 @@ generatedTree.delete(61)
 ------------------------------
 
 END - TEST 109
+
 
 
 START - TEST 110
@@ -5008,6 +5116,7 @@ generatedTree.delete(80)
 END - TEST 110
 
 
+
 START - TEST 111
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5037,6 +5146,7 @@ generatedTree.delete(96)
 ------------------------------
 
 END - TEST 111
+
 
 
 START - TEST 112
@@ -5074,6 +5184,7 @@ generatedTree.delete(76)
 END - TEST 112
 
 
+
 START - TEST 113
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5102,6 +5213,7 @@ generatedTree.delete(12)
 ------------------------------
 
 END - TEST 113
+
 
 
 START - TEST 114
@@ -5155,6 +5267,7 @@ generatedTree.delete(21)
 ------------------------------
 
 END - TEST 114
+
 
 
 START - TEST 115
@@ -5216,6 +5329,7 @@ generatedTree.delete(37)
 END - TEST 115
 
 
+
 START - TEST 116
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5270,6 +5384,7 @@ generatedTree.delete(80)
 END - TEST 116
 
 
+
 START - TEST 117
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5298,6 +5413,7 @@ generatedTree.delete(82)
 ------------------------------
 
 END - TEST 117
+
 
 
 START - TEST 118
@@ -5352,6 +5468,7 @@ generatedTree.delete(66)
 END - TEST 118
 
 
+
 START - TEST 119
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5385,6 +5502,7 @@ generatedTree.delete(84)
 ------------------------------
 
 END - TEST 119
+
 
 
 START - TEST 120
@@ -5440,6 +5558,7 @@ generatedTree.delete(73)
 END - TEST 120
 
 
+
 START - TEST 121
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5474,6 +5593,7 @@ generatedTree.delete(41)
 ------------------------------
 
 END - TEST 121
+
 
 
 START - TEST 122
@@ -5513,6 +5633,7 @@ generatedTree.delete(91)
 ------------------------------
 
 END - TEST 122
+
 
 
 START - TEST 123
@@ -5560,6 +5681,7 @@ generatedTree.delete(29)
 ------------------------------
 
 END - TEST 123
+
 
 
 START - TEST 124
@@ -5612,6 +5734,7 @@ generatedTree.delete(22)
 END - TEST 124
 
 
+
 START - TEST 125
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5660,6 +5783,7 @@ generatedTree.delete(33)
 END - TEST 125
 
 
+
 START - TEST 126
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5701,6 +5825,7 @@ generatedTree.delete(50)
 END - TEST 126
 
 
+
 START - TEST 127
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5734,6 +5859,7 @@ generatedTree.delete(85)
 ------------------------------
 
 END - TEST 127
+
 
 
 START - TEST 128
@@ -5797,6 +5923,7 @@ generatedTree.delete(38)
 END - TEST 128
 
 
+
 START - TEST 129
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5835,6 +5962,7 @@ generatedTree.delete(73)
 END - TEST 129
 
 
+
 START - TEST 130
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -5870,6 +5998,7 @@ generatedTree.delete(26)
 ------------------------------
 
 END - TEST 130
+
 
 
 START - TEST 131
@@ -5920,6 +6049,7 @@ generatedTree.delete(36)
 ------------------------------
 
 END - TEST 131
+
 
 
 START - TEST 132
@@ -5974,6 +6104,7 @@ generatedTree.delete(49)
 END - TEST 132
 
 
+
 START - TEST 133
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6011,6 +6142,7 @@ generatedTree.delete(82)
 ------------------------------
 
 END - TEST 133
+
 
 
 START - TEST 134
@@ -6068,6 +6200,7 @@ generatedTree.delete(11)
 END - TEST 134
 
 
+
 START - TEST 135
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6104,6 +6237,7 @@ generatedTree.delete(60)
 END - TEST 135
 
 
+
 START - TEST 136
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6137,6 +6271,7 @@ generatedTree.delete(94)
 ------------------------------
 
 END - TEST 136
+
 
 
 START - TEST 137
@@ -6188,6 +6323,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 137
+
 
 
 START - TEST 138
@@ -6248,6 +6384,7 @@ generatedTree.delete(76)
 END - TEST 138
 
 
+
 START - TEST 139
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6290,6 +6427,7 @@ generatedTree.delete(34)
 END - TEST 139
 
 
+
 START - TEST 140
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6328,6 +6466,7 @@ generatedTree.delete(14)
 ------------------------------
 
 END - TEST 140
+
 
 
 START - TEST 141
@@ -6383,6 +6522,7 @@ generatedTree.delete(49)
 ------------------------------
 
 END - TEST 141
+
 
 
 START - TEST 142
@@ -6442,6 +6582,7 @@ generatedTree.delete(49)
 END - TEST 142
 
 
+
 START - TEST 143
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6470,6 +6611,7 @@ generatedTree.delete(77)
 ------------------------------
 
 END - TEST 143
+
 
 
 START - TEST 144
@@ -6507,6 +6649,7 @@ generatedTree.delete(65)
 END - TEST 144
 
 
+
 START - TEST 145
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6542,6 +6685,7 @@ generatedTree.delete(96)
 END - TEST 145
 
 
+
 START - TEST 146
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6574,6 +6718,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 146
+
 
 
 START - TEST 147
@@ -6630,6 +6775,7 @@ generatedTree.delete(75)
 END - TEST 147
 
 
+
 START - TEST 148
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6656,6 +6802,7 @@ generatedTree.delete(86)
 ------------------------------
 
 END - TEST 148
+
 
 
 START - TEST 149
@@ -6691,6 +6838,7 @@ generatedTree.delete(92)
 ------------------------------
 
 END - TEST 149
+
 
 
 START - TEST 150
@@ -6742,6 +6890,7 @@ generatedTree.delete(76)
 ------------------------------
 
 END - TEST 150
+
 
 
 START - TEST 151
@@ -6805,6 +6954,7 @@ generatedTree.delete(27)
 END - TEST 151
 
 
+
 START - TEST 152
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6856,6 +7006,7 @@ generatedTree.delete(64)
 END - TEST 152
 
 
+
 START - TEST 153
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6895,6 +7046,7 @@ generatedTree.delete(48)
 ------------------------------
 
 END - TEST 153
+
 
 
 START - TEST 154
@@ -6942,6 +7094,7 @@ generatedTree.delete(27)
 END - TEST 154
 
 
+
 START - TEST 155
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -6970,6 +7123,7 @@ generatedTree.delete(69)
 ------------------------------
 
 END - TEST 155
+
 
 
 START - TEST 156
@@ -7030,6 +7184,7 @@ generatedTree.delete(35)
 END - TEST 156
 
 
+
 START - TEST 157
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7073,6 +7228,7 @@ generatedTree.delete(64)
 END - TEST 157
 
 
+
 START - TEST 158
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7101,6 +7257,7 @@ generatedTree.delete(14)
 ------------------------------
 
 END - TEST 158
+
 
 
 START - TEST 159
@@ -7163,6 +7320,7 @@ generatedTree.delete(95)
 END - TEST 159
 
 
+
 START - TEST 160
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7218,6 +7376,7 @@ generatedTree.delete(63)
 ------------------------------
 
 END - TEST 160
+
 
 
 START - TEST 161
@@ -7276,6 +7435,7 @@ generatedTree.delete(13)
 END - TEST 161
 
 
+
 START - TEST 162
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7310,6 +7470,7 @@ generatedTree.delete(81)
 ------------------------------
 
 END - TEST 162
+
 
 
 START - TEST 163
@@ -7364,6 +7525,7 @@ generatedTree.delete(17)
 END - TEST 163
 
 
+
 START - TEST 164
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7393,6 +7555,7 @@ generatedTree.delete(80)
 ------------------------------
 
 END - TEST 164
+
 
 
 START - TEST 165
@@ -7453,6 +7616,7 @@ generatedTree.delete(94)
 END - TEST 165
 
 
+
 START - TEST 166
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7486,6 +7650,7 @@ generatedTree.delete(83)
 ------------------------------
 
 END - TEST 166
+
 
 
 START - TEST 167
@@ -7542,6 +7707,7 @@ generatedTree.delete(68)
 END - TEST 167
 
 
+
 START - TEST 168
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7572,6 +7738,7 @@ generatedTree.delete(97)
 ------------------------------
 
 END - TEST 168
+
 
 
 START - TEST 169
@@ -7629,6 +7796,7 @@ generatedTree.delete(18)
 END - TEST 169
 
 
+
 START - TEST 170
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7657,6 +7825,7 @@ generatedTree.delete(94)
 ------------------------------
 
 END - TEST 170
+
 
 
 START - TEST 171
@@ -7696,6 +7865,7 @@ generatedTree.delete(88)
 ------------------------------
 
 END - TEST 171
+
 
 
 START - TEST 172
@@ -7758,6 +7928,7 @@ generatedTree.delete(33)
 END - TEST 172
 
 
+
 START - TEST 173
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7811,6 +7982,7 @@ generatedTree.delete(63)
 ------------------------------
 
 END - TEST 173
+
 
 
 START - TEST 174
@@ -7878,6 +8050,7 @@ generatedTree.delete(90)
 END - TEST 174
 
 
+
 START - TEST 175
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -7912,6 +8085,7 @@ generatedTree.delete(82)
 ------------------------------
 
 END - TEST 175
+
 
 
 START - TEST 176
@@ -7962,6 +8136,7 @@ generatedTree.delete(77)
 ------------------------------
 
 END - TEST 176
+
 
 
 START - TEST 177
@@ -8022,6 +8197,7 @@ generatedTree.delete(47)
 END - TEST 177
 
 
+
 START - TEST 178
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8070,6 +8246,7 @@ generatedTree.delete(74)
 ------------------------------
 
 END - TEST 178
+
 
 
 START - TEST 179
@@ -8127,6 +8304,7 @@ generatedTree.delete(18)
 END - TEST 179
 
 
+
 START - TEST 180
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8181,6 +8359,7 @@ generatedTree.delete(69)
 ------------------------------
 
 END - TEST 180
+
 
 
 START - TEST 181
@@ -8244,6 +8423,7 @@ generatedTree.delete(56)
 END - TEST 181
 
 
+
 START - TEST 182
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8302,6 +8482,7 @@ generatedTree.delete(64)
 END - TEST 182
 
 
+
 START - TEST 183
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8351,6 +8532,7 @@ generatedTree.delete(60)
 END - TEST 183
 
 
+
 START - TEST 184
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8382,6 +8564,7 @@ generatedTree.delete(36)
 ------------------------------
 
 END - TEST 184
+
 
 
 START - TEST 185
@@ -8419,6 +8602,7 @@ generatedTree.delete(41)
 ------------------------------
 
 END - TEST 185
+
 
 
 START - TEST 186
@@ -8474,6 +8658,7 @@ generatedTree.delete(59)
 END - TEST 186
 
 
+
 START - TEST 187
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8504,6 +8689,7 @@ generatedTree.delete(59)
 ------------------------------
 
 END - TEST 187
+
 
 
 START - TEST 188
@@ -8564,6 +8750,7 @@ generatedTree.delete(71)
 END - TEST 188
 
 
+
 START - TEST 189
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8590,6 +8777,7 @@ generatedTree.delete(63)
 ------------------------------
 
 END - TEST 189
+
 
 
 START - TEST 190
@@ -8654,6 +8842,7 @@ generatedTree.delete(85)
 END - TEST 190
 
 
+
 START - TEST 191
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8711,6 +8900,7 @@ generatedTree.delete(63)
 END - TEST 191
 
 
+
 START - TEST 192
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8744,6 +8934,7 @@ generatedTree.delete(44)
 ------------------------------
 
 END - TEST 192
+
 
 
 START - TEST 193
@@ -8780,6 +8971,7 @@ generatedTree.delete(52)
 ------------------------------
 
 END - TEST 193
+
 
 
 START - TEST 194
@@ -8833,6 +9025,7 @@ generatedTree.delete(51)
 END - TEST 194
 
 
+
 START - TEST 195
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -8869,6 +9062,7 @@ generatedTree.delete(57)
 ------------------------------
 
 END - TEST 195
+
 
 
 START - TEST 196
@@ -8919,6 +9113,7 @@ generatedTree.delete(16)
 ------------------------------
 
 END - TEST 196
+
 
 
 START - TEST 197
@@ -8984,6 +9179,7 @@ generatedTree.delete(96)
 END - TEST 197
 
 
+
 START - TEST 198
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9037,6 +9233,7 @@ generatedTree.delete(81)
 ------------------------------
 
 END - TEST 198
+
 
 
 START - TEST 199
@@ -9102,6 +9299,7 @@ generatedTree.delete(53)
 END - TEST 199
 
 
+
 START - TEST 200
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9133,6 +9331,7 @@ generatedTree.delete(21)
 ------------------------------
 
 END - TEST 200
+
 
 
 START - TEST 201
@@ -9183,6 +9382,7 @@ generatedTree.delete(79)
 END - TEST 201
 
 
+
 START - TEST 202
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9225,6 +9425,7 @@ generatedTree.delete(75)
 ------------------------------
 
 END - TEST 202
+
 
 
 START - TEST 203
@@ -9282,6 +9483,7 @@ generatedTree.delete(50)
 ------------------------------
 
 END - TEST 203
+
 
 
 START - TEST 204
@@ -9345,6 +9547,7 @@ generatedTree.delete(12)
 END - TEST 204
 
 
+
 START - TEST 205
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9387,6 +9590,7 @@ generatedTree.delete(42)
 END - TEST 205
 
 
+
 START - TEST 206
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9422,6 +9626,7 @@ generatedTree.delete(20)
 ------------------------------
 
 END - TEST 206
+
 
 
 START - TEST 207
@@ -9471,6 +9676,7 @@ generatedTree.delete(90)
 ------------------------------
 
 END - TEST 207
+
 
 
 START - TEST 208
@@ -9529,6 +9735,7 @@ generatedTree.delete(39)
 END - TEST 208
 
 
+
 START - TEST 209
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9570,6 +9777,7 @@ generatedTree.delete(37)
 END - TEST 209
 
 
+
 START - TEST 210
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9609,6 +9817,7 @@ generatedTree.delete(46)
 ------------------------------
 
 END - TEST 210
+
 
 
 START - TEST 211
@@ -9664,6 +9873,7 @@ generatedTree.delete(95)
 END - TEST 211
 
 
+
 START - TEST 212
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9712,6 +9922,7 @@ generatedTree.delete(41)
 END - TEST 212
 
 
+
 START - TEST 213
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9740,6 +9951,7 @@ generatedTree.delete(50)
 ------------------------------
 
 END - TEST 213
+
 
 
 START - TEST 214
@@ -9778,6 +9990,7 @@ generatedTree.delete(22)
 ------------------------------
 
 END - TEST 214
+
 
 
 START - TEST 215
@@ -9838,6 +10051,7 @@ generatedTree.delete(28)
 END - TEST 215
 
 
+
 START - TEST 216
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9893,6 +10107,7 @@ generatedTree.delete(45)
 END - TEST 216
 
 
+
 START - TEST 217
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9943,6 +10158,7 @@ generatedTree.delete(90)
 END - TEST 217
 
 
+
 START - TEST 218
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -9974,6 +10190,7 @@ generatedTree.delete(12)
 ------------------------------
 
 END - TEST 218
+
 
 
 START - TEST 219
@@ -10017,6 +10234,7 @@ generatedTree.delete(60)
 END - TEST 219
 
 
+
 START - TEST 220
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10045,6 +10263,7 @@ generatedTree.delete(12)
 ------------------------------
 
 END - TEST 220
+
 
 
 START - TEST 221
@@ -10088,6 +10307,7 @@ generatedTree.delete(70)
 ------------------------------
 
 END - TEST 221
+
 
 
 START - TEST 222
@@ -10137,6 +10357,7 @@ generatedTree.delete(34)
 END - TEST 222
 
 
+
 START - TEST 223
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10178,6 +10399,7 @@ generatedTree.delete(38)
 ------------------------------
 
 END - TEST 223
+
 
 
 START - TEST 224
@@ -10226,6 +10448,7 @@ generatedTree.delete(41)
 ------------------------------
 
 END - TEST 224
+
 
 
 START - TEST 225
@@ -10284,6 +10507,7 @@ generatedTree.delete(41)
 END - TEST 225
 
 
+
 START - TEST 226
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10335,6 +10559,7 @@ generatedTree.delete(98)
 END - TEST 226
 
 
+
 START - TEST 227
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10369,6 +10594,7 @@ generatedTree.delete(56)
 ------------------------------
 
 END - TEST 227
+
 
 
 START - TEST 228
@@ -10436,6 +10662,7 @@ generatedTree.delete(90)
 END - TEST 228
 
 
+
 START - TEST 229
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10495,6 +10722,7 @@ generatedTree.delete(19)
 END - TEST 229
 
 
+
 START - TEST 230
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10534,6 +10762,7 @@ generatedTree.delete(55)
 ------------------------------
 
 END - TEST 230
+
 
 
 START - TEST 231
@@ -10591,6 +10820,7 @@ generatedTree.delete(39)
 END - TEST 231
 
 
+
 START - TEST 232
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10622,6 +10852,7 @@ generatedTree.delete(60)
 ------------------------------
 
 END - TEST 232
+
 
 
 START - TEST 233
@@ -10665,6 +10896,7 @@ generatedTree.delete(17)
 ------------------------------
 
 END - TEST 233
+
 
 
 START - TEST 234
@@ -10711,6 +10943,7 @@ generatedTree.delete(40)
 END - TEST 234
 
 
+
 START - TEST 235
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10747,6 +10980,7 @@ generatedTree.delete(64)
 ------------------------------
 
 END - TEST 235
+
 
 
 START - TEST 236
@@ -10814,6 +11048,7 @@ generatedTree.delete(62)
 END - TEST 236
 
 
+
 START - TEST 237
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10846,6 +11081,7 @@ generatedTree.delete(39)
 ------------------------------
 
 END - TEST 237
+
 
 
 START - TEST 238
@@ -10901,6 +11137,7 @@ generatedTree.delete(46)
 END - TEST 238
 
 
+
 START - TEST 239
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -10930,6 +11167,7 @@ generatedTree.delete(93)
 ------------------------------
 
 END - TEST 239
+
 
 
 START - TEST 240
@@ -10982,6 +11220,7 @@ generatedTree.delete(51)
 END - TEST 240
 
 
+
 START - TEST 241
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11025,6 +11264,7 @@ generatedTree.delete(66)
 END - TEST 241
 
 
+
 START - TEST 242
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11053,6 +11293,7 @@ generatedTree.delete(80)
 ------------------------------
 
 END - TEST 242
+
 
 
 START - TEST 243
@@ -11090,6 +11331,7 @@ generatedTree.delete(49)
 ------------------------------
 
 END - TEST 243
+
 
 
 START - TEST 244
@@ -11143,6 +11385,7 @@ generatedTree.delete(19)
 END - TEST 244
 
 
+
 START - TEST 245
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11182,6 +11425,7 @@ generatedTree.delete(88)
 END - TEST 245
 
 
+
 START - TEST 246
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11216,6 +11460,7 @@ generatedTree.delete(16)
 ------------------------------
 
 END - TEST 246
+
 
 
 START - TEST 247
@@ -11258,6 +11503,7 @@ generatedTree.delete(61)
 ------------------------------
 
 END - TEST 247
+
 
 
 START - TEST 248
@@ -11316,6 +11562,7 @@ generatedTree.delete(53)
 END - TEST 248
 
 
+
 START - TEST 249
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11368,6 +11615,7 @@ generatedTree.delete(63)
 END - TEST 249
 
 
+
 START - TEST 250
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11408,6 +11656,7 @@ generatedTree.delete(38)
 ------------------------------
 
 END - TEST 250
+
 
 
 START - TEST 251
@@ -11467,6 +11716,7 @@ generatedTree.delete(51)
 END - TEST 251
 
 
+
 START - TEST 252
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11522,6 +11772,7 @@ generatedTree.delete(63)
 END - TEST 252
 
 
+
 START - TEST 253
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11563,6 +11814,7 @@ generatedTree.delete(75)
 ------------------------------
 
 END - TEST 253
+
 
 
 START - TEST 254
@@ -11630,6 +11882,7 @@ generatedTree.delete(23)
 END - TEST 254
 
 
+
 START - TEST 255
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11674,6 +11927,7 @@ generatedTree.delete(78)
 END - TEST 255
 
 
+
 START - TEST 256
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11702,6 +11956,7 @@ generatedTree.delete(77)
 ------------------------------
 
 END - TEST 256
+
 
 
 START - TEST 257
@@ -11752,6 +12007,7 @@ generatedTree.delete(31)
 ------------------------------
 
 END - TEST 257
+
 
 
 START - TEST 258
@@ -11811,6 +12067,7 @@ generatedTree.delete(79)
 END - TEST 258
 
 
+
 START - TEST 259
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11850,6 +12107,7 @@ generatedTree.delete(77)
 END - TEST 259
 
 
+
 START - TEST 260
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -11883,6 +12141,7 @@ generatedTree.delete(41)
 ------------------------------
 
 END - TEST 260
+
 
 
 START - TEST 261
@@ -11933,6 +12192,7 @@ generatedTree.delete(28)
 ------------------------------
 
 END - TEST 261
+
 
 
 START - TEST 262
@@ -11994,6 +12254,7 @@ generatedTree.delete(64)
 END - TEST 262
 
 
+
 START - TEST 263
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12042,6 +12303,7 @@ generatedTree.delete(83)
 ------------------------------
 
 END - TEST 263
+
 
 
 START - TEST 264
@@ -12098,6 +12360,7 @@ generatedTree.delete(36)
 END - TEST 264
 
 
+
 START - TEST 265
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12139,6 +12402,7 @@ generatedTree.delete(56)
 END - TEST 265
 
 
+
 START - TEST 266
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12172,6 +12436,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 266
+
 
 
 START - TEST 267
@@ -12209,6 +12474,7 @@ generatedTree.delete(65)
 END - TEST 267
 
 
+
 START - TEST 268
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12241,6 +12507,7 @@ generatedTree.delete(83)
 ------------------------------
 
 END - TEST 268
+
 
 
 START - TEST 269
@@ -12301,6 +12568,7 @@ generatedTree.delete(18)
 END - TEST 269
 
 
+
 START - TEST 270
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12327,6 +12595,7 @@ generatedTree.delete(50)
 ------------------------------
 
 END - TEST 270
+
 
 
 START - TEST 271
@@ -12368,6 +12637,7 @@ generatedTree.delete(13)
 END - TEST 271
 
 
+
 START - TEST 272
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12402,6 +12672,7 @@ generatedTree.delete(16)
 ------------------------------
 
 END - TEST 272
+
 
 
 START - TEST 273
@@ -12453,6 +12724,7 @@ generatedTree.delete(18)
 END - TEST 273
 
 
+
 START - TEST 274
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12486,6 +12758,7 @@ generatedTree.delete(80)
 ------------------------------
 
 END - TEST 274
+
 
 
 START - TEST 275
@@ -12548,6 +12821,7 @@ generatedTree.delete(68)
 END - TEST 275
 
 
+
 START - TEST 276
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12577,6 +12851,7 @@ generatedTree.delete(63)
 ------------------------------
 
 END - TEST 276
+
 
 
 START - TEST 277
@@ -12626,6 +12901,7 @@ generatedTree.delete(27)
 ------------------------------
 
 END - TEST 277
+
 
 
 START - TEST 278
@@ -12686,6 +12962,7 @@ generatedTree.delete(22)
 END - TEST 278
 
 
+
 START - TEST 279
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12719,6 +12996,7 @@ generatedTree.delete(19)
 ------------------------------
 
 END - TEST 279
+
 
 
 START - TEST 280
@@ -12768,6 +13046,7 @@ generatedTree.delete(86)
 ------------------------------
 
 END - TEST 280
+
 
 
 START - TEST 281
@@ -12822,6 +13101,7 @@ generatedTree.delete(59)
 END - TEST 281
 
 
+
 START - TEST 282
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12853,6 +13133,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 282
+
 
 
 START - TEST 283
@@ -12910,6 +13191,7 @@ generatedTree.delete(68)
 END - TEST 283
 
 
+
 START - TEST 284
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -12955,6 +13237,7 @@ generatedTree.delete(43)
 ------------------------------
 
 END - TEST 284
+
 
 
 START - TEST 285
@@ -13004,6 +13287,7 @@ generatedTree.delete(19)
 ------------------------------
 
 END - TEST 285
+
 
 
 START - TEST 286
@@ -13061,6 +13345,7 @@ generatedTree.delete(84)
 END - TEST 286
 
 
+
 START - TEST 287
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13094,6 +13379,7 @@ generatedTree.delete(22)
 ------------------------------
 
 END - TEST 287
+
 
 
 START - TEST 288
@@ -13155,6 +13441,7 @@ generatedTree.delete(33)
 END - TEST 288
 
 
+
 START - TEST 289
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13204,6 +13491,7 @@ generatedTree.delete(88)
 END - TEST 289
 
 
+
 START - TEST 290
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13239,6 +13527,7 @@ generatedTree.delete(95)
 END - TEST 290
 
 
+
 START - TEST 291
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13267,6 +13556,7 @@ generatedTree.delete(89)
 ------------------------------
 
 END - TEST 291
+
 
 
 START - TEST 292
@@ -13317,6 +13607,7 @@ generatedTree.delete(19)
 END - TEST 292
 
 
+
 START - TEST 293
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13358,6 +13649,7 @@ generatedTree.delete(90)
 ------------------------------
 
 END - TEST 293
+
 
 
 START - TEST 294
@@ -13405,6 +13697,7 @@ generatedTree.delete(13)
 END - TEST 294
 
 
+
 START - TEST 295
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13438,6 +13731,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 295
+
 
 
 START - TEST 296
@@ -13488,6 +13782,7 @@ generatedTree.delete(77)
 END - TEST 296
 
 
+
 START - TEST 297
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13529,6 +13824,7 @@ generatedTree.delete(91)
 END - TEST 297
 
 
+
 START - TEST 298
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13561,6 +13857,7 @@ generatedTree.delete(62)
 ------------------------------
 
 END - TEST 298
+
 
 
 START - TEST 299
@@ -13622,6 +13919,7 @@ generatedTree.delete(35)
 END - TEST 299
 
 
+
 START - TEST 300
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13663,6 +13961,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 300
+
 
 
 START - TEST 301
@@ -13727,6 +14026,7 @@ generatedTree.delete(27)
 END - TEST 301
 
 
+
 START - TEST 302
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13757,6 +14057,7 @@ generatedTree.delete(62)
 ------------------------------
 
 END - TEST 302
+
 
 
 START - TEST 303
@@ -13811,6 +14112,7 @@ generatedTree.delete(32)
 END - TEST 303
 
 
+
 START - TEST 304
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13840,6 +14142,7 @@ generatedTree.delete(80)
 ------------------------------
 
 END - TEST 304
+
 
 
 START - TEST 305
@@ -13890,6 +14193,7 @@ generatedTree.delete(93)
 ------------------------------
 
 END - TEST 305
+
 
 
 START - TEST 306
@@ -13947,6 +14251,7 @@ generatedTree.delete(86)
 END - TEST 306
 
 
+
 START - TEST 307
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -13996,6 +14301,7 @@ generatedTree.delete(94)
 ------------------------------
 
 END - TEST 307
+
 
 
 START - TEST 308
@@ -14053,6 +14359,7 @@ generatedTree.delete(42)
 END - TEST 308
 
 
+
 START - TEST 309
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14094,6 +14401,7 @@ generatedTree.delete(55)
 ------------------------------
 
 END - TEST 309
+
 
 
 START - TEST 310
@@ -14150,6 +14458,7 @@ generatedTree.delete(45)
 END - TEST 310
 
 
+
 START - TEST 311
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14194,6 +14503,7 @@ generatedTree.delete(68)
 ------------------------------
 
 END - TEST 311
+
 
 
 START - TEST 312
@@ -14242,6 +14552,7 @@ generatedTree.delete(35)
 ------------------------------
 
 END - TEST 312
+
 
 
 START - TEST 313
@@ -14305,6 +14616,7 @@ generatedTree.delete(82)
 END - TEST 313
 
 
+
 START - TEST 314
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14360,6 +14672,7 @@ generatedTree.delete(97)
 END - TEST 314
 
 
+
 START - TEST 315
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14405,6 +14718,7 @@ generatedTree.delete(45)
 END - TEST 315
 
 
+
 START - TEST 316
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14441,6 +14755,7 @@ generatedTree.delete(66)
 ------------------------------
 
 END - TEST 316
+
 
 
 START - TEST 317
@@ -14490,6 +14805,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 317
+
 
 
 START - TEST 318
@@ -14542,6 +14858,7 @@ generatedTree.delete(51)
 END - TEST 318
 
 
+
 START - TEST 319
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14578,6 +14895,7 @@ generatedTree.delete(52)
 ------------------------------
 
 END - TEST 319
+
 
 
 START - TEST 320
@@ -14636,6 +14954,7 @@ generatedTree.delete(60)
 END - TEST 320
 
 
+
 START - TEST 321
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14684,6 +15003,7 @@ generatedTree.delete(45)
 END - TEST 321
 
 
+
 START - TEST 322
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14715,6 +15035,7 @@ generatedTree.delete(84)
 ------------------------------
 
 END - TEST 322
+
 
 
 START - TEST 323
@@ -14751,6 +15072,7 @@ generatedTree.delete(19)
 END - TEST 323
 
 
+
 START - TEST 324
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14784,6 +15106,7 @@ generatedTree.delete(42)
 ------------------------------
 
 END - TEST 324
+
 
 
 START - TEST 325
@@ -14847,6 +15170,7 @@ generatedTree.delete(47)
 END - TEST 325
 
 
+
 START - TEST 326
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -14900,6 +15224,7 @@ generatedTree.delete(36)
 ------------------------------
 
 END - TEST 326
+
 
 
 START - TEST 327
@@ -14957,6 +15282,7 @@ generatedTree.delete(16)
 END - TEST 327
 
 
+
 START - TEST 328
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15001,6 +15327,7 @@ generatedTree.delete(40)
 END - TEST 328
 
 
+
 START - TEST 329
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15030,6 +15357,7 @@ generatedTree.delete(79)
 ------------------------------
 
 END - TEST 329
+
 
 
 START - TEST 330
@@ -15075,6 +15403,7 @@ generatedTree.delete(61)
 ------------------------------
 
 END - TEST 330
+
 
 
 START - TEST 331
@@ -15134,6 +15463,7 @@ generatedTree.delete(47)
 END - TEST 331
 
 
+
 START - TEST 332
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15179,6 +15509,7 @@ generatedTree.delete(44)
 ------------------------------
 
 END - TEST 332
+
 
 
 START - TEST 333
@@ -15232,6 +15563,7 @@ generatedTree.delete(67)
 END - TEST 333
 
 
+
 START - TEST 334
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15263,6 +15595,7 @@ generatedTree.delete(22)
 ------------------------------
 
 END - TEST 334
+
 
 
 START - TEST 335
@@ -15313,6 +15646,7 @@ generatedTree.delete(81)
 END - TEST 335
 
 
+
 START - TEST 336
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15347,6 +15681,7 @@ generatedTree.delete(65)
 ------------------------------
 
 END - TEST 336
+
 
 
 START - TEST 337
@@ -15402,6 +15737,7 @@ generatedTree.delete(62)
 END - TEST 337
 
 
+
 START - TEST 338
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15450,6 +15786,7 @@ generatedTree.delete(89)
 ------------------------------
 
 END - TEST 338
+
 
 
 START - TEST 339
@@ -15507,6 +15844,7 @@ generatedTree.delete(56)
 END - TEST 339
 
 
+
 START - TEST 340
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15559,6 +15897,7 @@ generatedTree.delete(35)
 END - TEST 340
 
 
+
 START - TEST 341
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15608,6 +15947,7 @@ generatedTree.delete(74)
 END - TEST 341
 
 
+
 START - TEST 342
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15649,6 +15989,7 @@ generatedTree.delete(99)
 ------------------------------
 
 END - TEST 342
+
 
 
 START - TEST 343
@@ -15715,6 +16056,7 @@ generatedTree.delete(87)
 END - TEST 343
 
 
+
 START - TEST 344
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15777,6 +16119,7 @@ generatedTree.delete(87)
 END - TEST 344
 
 
+
 START - TEST 345
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15831,6 +16174,7 @@ generatedTree.delete(41)
 END - TEST 345
 
 
+
 START - TEST 346
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15864,6 +16208,7 @@ generatedTree.delete(21)
 ------------------------------
 
 END - TEST 346
+
 
 
 START - TEST 347
@@ -15925,6 +16270,7 @@ generatedTree.delete(14)
 END - TEST 347
 
 
+
 START - TEST 348
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -15966,6 +16312,7 @@ generatedTree.delete(81)
 ------------------------------
 
 END - TEST 348
+
 
 
 START - TEST 349
@@ -16022,6 +16369,7 @@ generatedTree.delete(77)
 END - TEST 349
 
 
+
 START - TEST 350
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16067,6 +16415,7 @@ generatedTree.delete(29)
 END - TEST 350
 
 
+
 START - TEST 351
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16104,6 +16453,7 @@ generatedTree.delete(63)
 ------------------------------
 
 END - TEST 351
+
 
 
 START - TEST 352
@@ -16159,6 +16509,7 @@ generatedTree.delete(21)
 END - TEST 352
 
 
+
 START - TEST 353
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16198,6 +16549,7 @@ generatedTree.delete(36)
 END - TEST 353
 
 
+
 START - TEST 354
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16226,6 +16578,7 @@ generatedTree.delete(77)
 ------------------------------
 
 END - TEST 354
+
 
 
 START - TEST 355
@@ -16262,6 +16615,7 @@ generatedTree.delete(50)
 ------------------------------
 
 END - TEST 355
+
 
 
 START - TEST 356
@@ -16312,6 +16666,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 356
+
 
 
 START - TEST 357
@@ -16377,6 +16732,7 @@ generatedTree.delete(51)
 END - TEST 357
 
 
+
 START - TEST 358
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16405,6 +16761,7 @@ generatedTree.delete(12)
 ------------------------------
 
 END - TEST 358
+
 
 
 START - TEST 359
@@ -16440,6 +16797,7 @@ generatedTree.delete(82)
 ------------------------------
 
 END - TEST 359
+
 
 
 START - TEST 360
@@ -16490,6 +16848,7 @@ generatedTree.delete(14)
 ------------------------------
 
 END - TEST 360
+
 
 
 START - TEST 361
@@ -16551,6 +16910,7 @@ generatedTree.delete(81)
 END - TEST 361
 
 
+
 START - TEST 362
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16599,6 +16959,7 @@ generatedTree.delete(42)
 END - TEST 362
 
 
+
 START - TEST 363
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16632,6 +16993,7 @@ generatedTree.delete(86)
 ------------------------------
 
 END - TEST 363
+
 
 
 START - TEST 364
@@ -16675,6 +17037,7 @@ generatedTree.delete(53)
 ------------------------------
 
 END - TEST 364
+
 
 
 START - TEST 365
@@ -16735,6 +17098,7 @@ generatedTree.delete(85)
 END - TEST 365
 
 
+
 START - TEST 366
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16772,6 +17136,7 @@ generatedTree.delete(30)
 END - TEST 366
 
 
+
 START - TEST 367
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16803,6 +17168,7 @@ generatedTree.delete(12)
 ------------------------------
 
 END - TEST 367
+
 
 
 START - TEST 368
@@ -16860,6 +17226,7 @@ generatedTree.delete(25)
 END - TEST 368
 
 
+
 START - TEST 369
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16910,6 +17277,7 @@ generatedTree.delete(19)
 END - TEST 369
 
 
+
 START - TEST 370
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -16958,6 +17326,7 @@ generatedTree.delete(68)
 END - TEST 370
 
 
+
 START - TEST 371
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17003,6 +17372,7 @@ generatedTree.delete(92)
 END - TEST 371
 
 
+
 START - TEST 372
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17038,6 +17408,7 @@ generatedTree.delete(27)
 END - TEST 372
 
 
+
 START - TEST 373
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17067,6 +17438,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 373
+
 
 
 START - TEST 374
@@ -17124,6 +17496,7 @@ generatedTree.delete(88)
 END - TEST 374
 
 
+
 START - TEST 375
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17175,6 +17548,7 @@ generatedTree.delete(78)
 ------------------------------
 
 END - TEST 375
+
 
 
 START - TEST 376
@@ -17230,6 +17604,7 @@ generatedTree.delete(43)
 END - TEST 376
 
 
+
 START - TEST 377
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17276,6 +17651,7 @@ generatedTree.delete(15)
 ------------------------------
 
 END - TEST 377
+
 
 
 START - TEST 378
@@ -17341,6 +17717,7 @@ generatedTree.delete(47)
 END - TEST 378
 
 
+
 START - TEST 379
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17397,6 +17774,7 @@ generatedTree.delete(17)
 END - TEST 379
 
 
+
 START - TEST 380
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17451,6 +17829,7 @@ generatedTree.delete(29)
 END - TEST 380
 
 
+
 START - TEST 381
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17495,6 +17874,7 @@ generatedTree.delete(57)
 ------------------------------
 
 END - TEST 381
+
 
 
 START - TEST 382
@@ -17559,6 +17939,7 @@ generatedTree.delete(70)
 END - TEST 382
 
 
+
 START - TEST 383
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17585,6 +17966,7 @@ generatedTree.delete(52)
 ------------------------------
 
 END - TEST 383
+
 
 
 START - TEST 384
@@ -17643,6 +18025,7 @@ generatedTree.delete(73)
 END - TEST 384
 
 
+
 START - TEST 385
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17690,6 +18073,7 @@ generatedTree.delete(85)
 ------------------------------
 
 END - TEST 385
+
 
 
 START - TEST 386
@@ -17741,6 +18125,7 @@ generatedTree.delete(37)
 END - TEST 386
 
 
+
 START - TEST 387
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17782,6 +18167,7 @@ generatedTree.delete(90)
 ------------------------------
 
 END - TEST 387
+
 
 
 START - TEST 388
@@ -17837,6 +18223,7 @@ generatedTree.delete(50)
 END - TEST 388
 
 
+
 START - TEST 389
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -17873,6 +18260,7 @@ generatedTree.delete(57)
 ------------------------------
 
 END - TEST 389
+
 
 
 START - TEST 390
@@ -17922,6 +18310,7 @@ generatedTree.delete(23)
 ------------------------------
 
 END - TEST 390
+
 
 
 START - TEST 391
@@ -17982,6 +18371,7 @@ generatedTree.delete(69)
 END - TEST 391
 
 
+
 START - TEST 392
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18037,6 +18427,7 @@ generatedTree.delete(22)
 END - TEST 392
 
 
+
 START - TEST 393
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18074,6 +18465,7 @@ generatedTree.delete(70)
 ------------------------------
 
 END - TEST 393
+
 
 
 START - TEST 394
@@ -18120,6 +18512,7 @@ generatedTree.delete(64)
 ------------------------------
 
 END - TEST 394
+
 
 
 START - TEST 395
@@ -18181,6 +18574,7 @@ generatedTree.delete(79)
 END - TEST 395
 
 
+
 START - TEST 396
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18222,6 +18616,7 @@ generatedTree.delete(16)
 ------------------------------
 
 END - TEST 396
+
 
 
 START - TEST 397
@@ -18274,6 +18669,7 @@ generatedTree.delete(43)
 END - TEST 397
 
 
+
 START - TEST 398
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18314,6 +18710,7 @@ generatedTree.delete(34)
 END - TEST 398
 
 
+
 START - TEST 399
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18344,6 +18741,7 @@ generatedTree.delete(48)
 ------------------------------
 
 END - TEST 399
+
 
 
 START - TEST 400
@@ -18396,6 +18794,7 @@ generatedTree.delete(38)
 END - TEST 400
 
 
+
 START - TEST 401
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18426,6 +18825,7 @@ generatedTree.delete(57)
 ------------------------------
 
 END - TEST 401
+
 
 
 START - TEST 402
@@ -18480,6 +18880,7 @@ generatedTree.delete(12)
 END - TEST 402
 
 
+
 START - TEST 403
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18529,6 +18930,7 @@ generatedTree.delete(96)
 END - TEST 403
 
 
+
 START - TEST 404
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18562,6 +18964,7 @@ generatedTree.delete(12)
 ------------------------------
 
 END - TEST 404
+
 
 
 START - TEST 405
@@ -18624,6 +19027,7 @@ generatedTree.delete(96)
 END - TEST 405
 
 
+
 START - TEST 406
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18673,6 +19077,7 @@ generatedTree.delete(75)
 END - TEST 406
 
 
+
 START - TEST 407
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18718,6 +19123,7 @@ generatedTree.delete(51)
 END - TEST 407
 
 
+
 START - TEST 408
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18746,6 +19152,7 @@ generatedTree.delete(59)
 ------------------------------
 
 END - TEST 408
+
 
 
 START - TEST 409
@@ -18777,6 +19184,7 @@ generatedTree.delete(44)
 ------------------------------
 
 END - TEST 409
+
 
 
 START - TEST 410
@@ -18822,6 +19230,7 @@ generatedTree.delete(19)
 END - TEST 410
 
 
+
 START - TEST 411
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18864,6 +19273,7 @@ generatedTree.delete(39)
 END - TEST 411
 
 
+
 START - TEST 412
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18903,6 +19313,7 @@ generatedTree.delete(56)
 ------------------------------
 
 END - TEST 412
+
 
 
 START - TEST 413
@@ -18959,6 +19370,7 @@ generatedTree.delete(77)
 END - TEST 413
 
 
+
 START - TEST 414
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -18987,6 +19399,7 @@ generatedTree.delete(51)
 ------------------------------
 
 END - TEST 414
+
 
 
 START - TEST 415
@@ -19031,6 +19444,7 @@ generatedTree.delete(56)
 END - TEST 415
 
 
+
 START - TEST 416
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19060,6 +19474,7 @@ generatedTree.delete(16)
 ------------------------------
 
 END - TEST 416
+
 
 
 START - TEST 417
@@ -19117,6 +19532,7 @@ generatedTree.delete(29)
 ------------------------------
 
 END - TEST 417
+
 
 
 START - TEST 418
@@ -19180,6 +19596,7 @@ generatedTree.delete(68)
 END - TEST 418
 
 
+
 START - TEST 419
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19231,6 +19648,7 @@ generatedTree.delete(42)
 END - TEST 419
 
 
+
 START - TEST 420
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19265,6 +19683,7 @@ generatedTree.delete(75)
 ------------------------------
 
 END - TEST 420
+
 
 
 START - TEST 421
@@ -19312,6 +19731,7 @@ generatedTree.delete(15)
 END - TEST 421
 
 
+
 START - TEST 422
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19344,6 +19764,7 @@ generatedTree.delete(25)
 END - TEST 422
 
 
+
 START - TEST 423
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19373,6 +19794,7 @@ generatedTree.delete(94)
 ------------------------------
 
 END - TEST 423
+
 
 
 START - TEST 424
@@ -19430,6 +19852,7 @@ generatedTree.delete(62)
 END - TEST 424
 
 
+
 START - TEST 425
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19477,6 +19900,7 @@ generatedTree.delete(43)
 END - TEST 425
 
 
+
 START - TEST 426
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19519,6 +19943,7 @@ generatedTree.delete(77)
 ------------------------------
 
 END - TEST 426
+
 
 
 START - TEST 427
@@ -19571,6 +19996,7 @@ generatedTree.delete(49)
 END - TEST 427
 
 
+
 START - TEST 428
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19600,6 +20026,7 @@ generatedTree.delete(80)
 ------------------------------
 
 END - TEST 428
+
 
 
 START - TEST 429
@@ -19637,6 +20064,7 @@ generatedTree.delete(93)
 ------------------------------
 
 END - TEST 429
+
 
 
 START - TEST 430
@@ -19688,6 +20116,7 @@ generatedTree.delete(55)
 ------------------------------
 
 END - TEST 430
+
 
 
 START - TEST 431
@@ -19744,6 +20173,7 @@ generatedTree.delete(23)
 END - TEST 431
 
 
+
 START - TEST 432
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19796,6 +20226,7 @@ generatedTree.delete(12)
 ------------------------------
 
 END - TEST 432
+
 
 
 START - TEST 433
@@ -19851,6 +20282,7 @@ generatedTree.delete(59)
 END - TEST 433
 
 
+
 START - TEST 434
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -19884,6 +20316,7 @@ generatedTree.delete(78)
 ------------------------------
 
 END - TEST 434
+
 
 
 START - TEST 435
@@ -19937,6 +20370,7 @@ generatedTree.delete(61)
 ------------------------------
 
 END - TEST 435
+
 
 
 START - TEST 436
@@ -19999,6 +20433,7 @@ generatedTree.delete(74)
 END - TEST 436
 
 
+
 START - TEST 437
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20025,6 +20460,7 @@ generatedTree.delete(61)
 ------------------------------
 
 END - TEST 437
+
 
 
 START - TEST 438
@@ -20088,6 +20524,7 @@ generatedTree.delete(51)
 END - TEST 438
 
 
+
 START - TEST 439
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20127,6 +20564,7 @@ generatedTree.delete(52)
 ------------------------------
 
 END - TEST 439
+
 
 
 START - TEST 440
@@ -20174,6 +20612,7 @@ generatedTree.delete(22)
 END - TEST 440
 
 
+
 START - TEST 441
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20214,6 +20653,7 @@ generatedTree.delete(32)
 ------------------------------
 
 END - TEST 441
+
 
 
 START - TEST 442
@@ -20278,6 +20718,7 @@ generatedTree.delete(41)
 END - TEST 442
 
 
+
 START - TEST 443
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20327,6 +20768,7 @@ generatedTree.delete(81)
 ------------------------------
 
 END - TEST 443
+
 
 
 START - TEST 444
@@ -20381,6 +20823,7 @@ generatedTree.delete(21)
 END - TEST 444
 
 
+
 START - TEST 445
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20431,6 +20874,7 @@ generatedTree.delete(97)
 END - TEST 445
 
 
+
 START - TEST 446
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20466,6 +20910,7 @@ generatedTree.delete(82)
 ------------------------------
 
 END - TEST 446
+
 
 
 START - TEST 447
@@ -20523,6 +20968,7 @@ generatedTree.delete(62)
 END - TEST 447
 
 
+
 START - TEST 448
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20565,6 +21011,7 @@ generatedTree.delete(67)
 ------------------------------
 
 END - TEST 448
+
 
 
 START - TEST 449
@@ -20617,6 +21064,7 @@ generatedTree.delete(51)
 END - TEST 449
 
 
+
 START - TEST 450
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20648,6 +21096,7 @@ generatedTree.delete(48)
 ------------------------------
 
 END - TEST 450
+
 
 
 START - TEST 451
@@ -20715,6 +21164,7 @@ generatedTree.delete(57)
 END - TEST 451
 
 
+
 START - TEST 452
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20761,6 +21211,7 @@ generatedTree.delete(84)
 ------------------------------
 
 END - TEST 452
+
 
 
 START - TEST 453
@@ -20814,6 +21265,7 @@ generatedTree.delete(13)
 END - TEST 453
 
 
+
 START - TEST 454
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20865,6 +21317,7 @@ generatedTree.delete(94)
 ------------------------------
 
 END - TEST 454
+
 
 
 START - TEST 455
@@ -20923,6 +21376,7 @@ generatedTree.delete(43)
 END - TEST 455
 
 
+
 START - TEST 456
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -20955,6 +21409,7 @@ generatedTree.delete(74)
 ------------------------------
 
 END - TEST 456
+
 
 
 START - TEST 457
@@ -21011,6 +21466,7 @@ generatedTree.delete(70)
 END - TEST 457
 
 
+
 START - TEST 458
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21039,6 +21495,7 @@ generatedTree.delete(27)
 ------------------------------
 
 END - TEST 458
+
 
 
 START - TEST 459
@@ -21086,6 +21543,7 @@ generatedTree.delete(82)
 END - TEST 459
 
 
+
 START - TEST 460
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21131,6 +21589,7 @@ generatedTree.delete(89)
 ------------------------------
 
 END - TEST 460
+
 
 
 START - TEST 461
@@ -21182,6 +21641,7 @@ generatedTree.delete(66)
 END - TEST 461
 
 
+
 START - TEST 462
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21210,6 +21670,7 @@ generatedTree.delete(70)
 ------------------------------
 
 END - TEST 462
+
 
 
 START - TEST 463
@@ -21247,6 +21708,7 @@ generatedTree.delete(48)
 ------------------------------
 
 END - TEST 463
+
 
 
 START - TEST 464
@@ -21300,6 +21762,7 @@ generatedTree.delete(66)
 ------------------------------
 
 END - TEST 464
+
 
 
 START - TEST 465
@@ -21358,6 +21821,7 @@ generatedTree.delete(22)
 END - TEST 465
 
 
+
 START - TEST 466
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21386,6 +21850,7 @@ generatedTree.delete(40)
 ------------------------------
 
 END - TEST 466
+
 
 
 START - TEST 467
@@ -21444,6 +21909,7 @@ generatedTree.delete(86)
 END - TEST 467
 
 
+
 START - TEST 468
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21472,6 +21938,7 @@ generatedTree.delete(35)
 ------------------------------
 
 END - TEST 468
+
 
 
 START - TEST 469
@@ -21510,6 +21977,7 @@ generatedTree.delete(89)
 ------------------------------
 
 END - TEST 469
+
 
 
 START - TEST 470
@@ -21568,6 +22036,7 @@ generatedTree.delete(26)
 END - TEST 470
 
 
+
 START - TEST 471
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21620,6 +22089,7 @@ generatedTree.delete(93)
 END - TEST 471
 
 
+
 START - TEST 472
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21662,6 +22132,7 @@ generatedTree.delete(80)
 END - TEST 472
 
 
+
 START - TEST 473
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21702,6 +22173,7 @@ generatedTree.delete(27)
 ------------------------------
 
 END - TEST 473
+
 
 
 START - TEST 474
@@ -21760,6 +22232,7 @@ generatedTree.delete(97)
 END - TEST 474
 
 
+
 START - TEST 475
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21795,6 +22268,7 @@ generatedTree.delete(21)
 END - TEST 475
 
 
+
 START - TEST 476
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21823,6 +22297,7 @@ generatedTree.delete(14)
 ------------------------------
 
 END - TEST 476
+
 
 
 START - TEST 477
@@ -21887,6 +22362,7 @@ generatedTree.delete(37)
 END - TEST 477
 
 
+
 START - TEST 478
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -21939,6 +22415,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 478
+
 
 
 START - TEST 479
@@ -21995,6 +22472,7 @@ generatedTree.delete(48)
 END - TEST 479
 
 
+
 START - TEST 480
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22027,6 +22505,7 @@ generatedTree.delete(50)
 ------------------------------
 
 END - TEST 480
+
 
 
 START - TEST 481
@@ -22064,6 +22543,7 @@ generatedTree.delete(32)
 ------------------------------
 
 END - TEST 481
+
 
 
 START - TEST 482
@@ -22104,6 +22584,7 @@ generatedTree.delete(37)
 ------------------------------
 
 END - TEST 482
+
 
 
 START - TEST 483
@@ -22155,6 +22636,7 @@ generatedTree.delete(76)
 END - TEST 483
 
 
+
 START - TEST 484
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22198,6 +22680,7 @@ generatedTree.delete(91)
 END - TEST 484
 
 
+
 START - TEST 485
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22230,6 +22713,7 @@ generatedTree.delete(99)
 ------------------------------
 
 END - TEST 485
+
 
 
 START - TEST 486
@@ -22282,6 +22766,7 @@ generatedTree.delete(33)
 END - TEST 486
 
 
+
 START - TEST 487
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22315,6 +22800,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 487
+
 
 
 START - TEST 488
@@ -22368,6 +22854,7 @@ generatedTree.delete(33)
 END - TEST 488
 
 
+
 START - TEST 489
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22416,6 +22903,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 489
+
 
 
 START - TEST 490
@@ -22469,6 +22957,7 @@ generatedTree.delete(51)
 END - TEST 490
 
 
+
 START - TEST 491
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22513,6 +23002,7 @@ generatedTree.delete(38)
 END - TEST 491
 
 
+
 START - TEST 492
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22549,6 +23039,7 @@ generatedTree.delete(99)
 END - TEST 492
 
 
+
 START - TEST 493
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22578,6 +23069,7 @@ generatedTree.delete(34)
 ------------------------------
 
 END - TEST 493
+
 
 
 START - TEST 494
@@ -22634,6 +23126,7 @@ generatedTree.delete(84)
 END - TEST 494
 
 
+
 START - TEST 495
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22684,6 +23177,7 @@ generatedTree.delete(29)
 ------------------------------
 
 END - TEST 495
+
 
 
 START - TEST 496
@@ -22739,6 +23233,7 @@ generatedTree.delete(89)
 END - TEST 496
 
 
+
 START - TEST 497
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22789,6 +23284,7 @@ generatedTree.delete(21)
 ------------------------------
 
 END - TEST 497
+
 
 
 START - TEST 498
@@ -22847,6 +23343,7 @@ generatedTree.delete(80)
 END - TEST 498
 
 
+
 START - TEST 499
 ------------------------------
 BTree<Integer> generatedTree = new BTree<Integer>(2);
@@ -22897,3 +23394,4 @@ generatedTree.delete(39)
 ------------------------------
 
 END - TEST 499
+
