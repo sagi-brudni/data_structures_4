@@ -41,61 +41,10 @@ public class BTree<T extends Comparable<T>> {
      * @param value
      *            The new key we want to insert.
      */
-    public boolean insert(T value) {
-
-        // in case we have no root
-        if (root == null)
-        {
-            root = new Node<T>(null, maxKeySize, maxChildrenSize);
-            root.addKey(value); // simply adding the new key to new node
-        }
-        else // if the root is not null, the tree is not empty
-        {
-            Node<T> node = root;
-            while (node != null) // going trough the tree, find the node where the new key should be inserted
-            {
-                if (node.keysSize == maxKeySize) // if the node contains 2t-1 keys, we need to split
-                    node = split(node);
-
-                if (node.numberOfChildren() == 0) // if the node is leaf
-                {
-                    node.addKey(value); // adding the key to the node's keys
-                    break;
-                }
-
-                // Navigate - right or left in the tree
-
-                // Lesser or equal
-                T lesser = node.getKey(0);
-                if (value.compareTo(lesser) <= 0)  // if the value should be the first child of the node
-                {
-                    node = node.getChild(0);
-                    continue;
-                }
-
-                // Greater
-                int numberOfKeys = node.numberOfKeys();
-                int last = numberOfKeys - 1;
-                T greater = node.getKey(last);
-                if (value.compareTo(greater) > 0) // if the value should be the last child of the node
-                {
-                    node = node.getChild(numberOfKeys);
-                    continue;
-                }
-
-                // Search internal nodes
-                for (int i = 1; i < node.numberOfKeys(); i++) // checking all the keys in the node
-                {
-                    T prev = node.getKey(i - 1);
-                    T next = node.getKey(i);
-                    if (value.compareTo(prev) > 0 && value.compareTo(next) <= 0) {
-                        node = node.getChild(i); // getting the child in the correct place
-                        break;
-                    }
-                }
-            }
-        }
-        size++; // the tree's size increased in 1
+    public boolean insert(T value)
+    {
+        insertFromNode(root, value);
+        size++; // the tree's size increased by 1
         return true;
     }
 
@@ -197,65 +146,27 @@ public class BTree<T extends Comparable<T>> {
      */
     public boolean insert2pass(T value)
     {
-        // in case we have no root
-        if (root == null)
+        Node<T> node = root;
+        while (node != null) // going trough the tree, find the node where the new key should be inserted
         {
-            root = new Node<T>(null, maxKeySize, maxChildrenSize);
-            root.addKey(value); // simply adding the new key to new node
-        }
-        else
-        {
-            Node<T> node = root;
-            Node<T> node_to_insert = null;
-            while (node != null) // going trough the tree, find the node where the new key should be inserted
+            if (node.numberOfChildren() == 0) // if the node is leaf
             {
-                if (node.numberOfChildren() == 0) // if the node is leaf
-                {
-                    break; // end loop
-                }
-
-                // Navigate
-
-                // Lesser or equal
-                T lesser = node.getKey(0);
-                if (value.compareTo(lesser) <= 0) // if the value should be the first child of the node
-                {
-                    node = node.getChild(0);
-                    continue;
-                }
-
-                // Greater
-                int numberOfKeys = node.numberOfKeys();
-                int last = numberOfKeys - 1;
-                T greater = node.getKey(last);
-                if (value.compareTo(greater) > 0) // if the value should be the last child of the node
-                {
-                    node = node.getChild(numberOfKeys);
-                    continue;
-                }
-
-                // Search internal nodes
-                for (int i = 1; i < node.numberOfKeys(); i++)
-                {
-                    T prev = node.getKey(i - 1);
-                    T next = node.getKey(i);
-                    if (value.compareTo(prev) > 0 && value.compareTo(next) <= 0) {
-                        node = node.getChild(i); // getting the child in the correct place
-                        break;
-                    }
-                }
+                break; // end loop
             }
 
-            while (true) // ascent until we find the first node that we need to split
-            {
-                if (node.keysSize == maxKeySize && node.parent != null) // if the node contains 2t-1 keys, need to split
-                {
-                    node = node.parent; // going up to the node's parent
-                }
-                else break; // found the node that contains less than 2t-1 keys in the path to the place we need to insert the value
-            }
-            insertFromNode(node, value); // insert in 1-pass from the node we found the first parent that contains less then 2t-1 keys
+            node = navigate(node, value);
         }
+
+        while (node != null) // ascent until we find the first node that we need to split
+        {
+            if (node.keysSize == maxKeySize && node.parent != null) // if the node contains 2t-1 keys, need to split
+            {
+                node = node.parent; // going up to the node's parent
+            } else
+                break; // found the node that contains less than 2t-1 keys in the path to the place we need to insert the value
+        }
+        insertFromNode(node, value); // insert in 1-pass from the node we found the first parent that contains less then 2t-1 keys
+
         size++; // the tree's size increased by 1
         return true;
     }
@@ -270,10 +181,10 @@ public class BTree<T extends Comparable<T>> {
      */
     private boolean insertFromNode(Node<T> head, T value)
     {
-        if (head == null) // if its an empty leaf (or the root) simply adding new node with the given value
+        if (head == null) // if its an empty tree simply adding new node with the given value
         {
-            head = new Node<T>(null, maxKeySize, maxChildrenSize);
-            head.addKey(value);
+            this.root = new Node<T>(null, maxKeySize, maxChildrenSize);
+            this.root.addKey(value);
         }
         else // if the root is not null, the tree is not empty
         {
@@ -289,39 +200,45 @@ public class BTree<T extends Comparable<T>> {
                     break;
                 }
 
-                // Navigate - right or left in the tree
-
-                // Lesser or equal
-                T lesser = node.getKey(0);
-                if (value.compareTo(lesser) <= 0)  // if the value should be the first child of the node
-                {
-                    node = node.getChild(0);
-                    continue;
-                }
-
-                // Greater
-                int numberOfKeys = node.numberOfKeys();
-                int last = numberOfKeys - 1;
-                T greater = node.getKey(last);
-                if (value.compareTo(greater) > 0) // if the value should be the last child of the node
-                {
-                    node = node.getChild(numberOfKeys);
-                    continue;
-                }
-
-                // Search internal nodes
-                for (int i = 1; i < node.numberOfKeys(); i++) // checking all the keys in the node
-                {
-                    T prev = node.getKey(i - 1);
-                    T next = node.getKey(i);
-                    if (value.compareTo(prev) > 0 && value.compareTo(next) <= 0) {
-                        node = node.getChild(i); // getting the child in the correct place
-                        break;
-                    }
-                }
+                node = navigate(node, value);
             }
         }
         return true;
+    }
+
+    private Node<T> navigate(Node<T> node, T value)
+    {
+        // Navigate - right or left in the tree
+
+        // Lesser or equal
+        T lesser = node.getKey(0);
+        if (value.compareTo(lesser) <= 0)  // if the value should be the first child of the node
+        {
+            node = node.getChild(0);
+            return node;
+        }
+
+        // Greater
+        int numberOfKeys = node.numberOfKeys();
+        int last = numberOfKeys - 1;
+        T greater = node.getKey(last);
+        if (value.compareTo(greater) > 0) // if the value should be the last child of the node
+        {
+            node = node.getChild(numberOfKeys);
+            return node;
+        }
+
+        // Search internal nodes
+        for (int i = 1; i < node.numberOfKeys(); i++) // checking all the keys in the node
+        {
+            T prev = node.getKey(i - 1);
+            T next = node.getKey(i);
+            if (value.compareTo(prev) > 0 && value.compareTo(next) <= 0) {
+                node = node.getChild(i); // getting the child in the correct place
+                break;
+            }
+        }
+        return node;
     }
 
     /**
