@@ -15,12 +15,18 @@ public class CuckooHashing {
     private String[] array; // The array of elements
     private int currentSize; // The number of occupied cells
     private ArrayList<String> stash; //List of items that couldn't find a place
+
+    private Stack<String> insert_values_stack;
+    private Stack<String> kick_values_stack;
+    private Stack<Integer> kick_indexes_stack;
+    private Stack<Boolean> is_insert_action_stack;
     
     /**
      * Construct the hash table.
      */
     public CuckooHashing(HashMethods hf) {
         this(hf, DEFAULT_TABLE_SIZE);
+        initialize_stacks();
     }
 
     /**
@@ -35,8 +41,17 @@ public class CuckooHashing {
         makeEmpty();
         hashFunctions = hf;
         numHashFunctions = hf.getNumberOfFunctions();
+        initialize_stacks();
     }
-    
+
+
+    private void initialize_stacks() {
+        kick_values_stack = new Stack<>();
+        insert_values_stack = new Stack<>();
+        kick_indexes_stack = new Stack<>();
+        is_insert_action_stack = new Stack<>();
+    }
+
     /**
      * Insert into the hash table. If the item is
      * already present, return false.
@@ -79,6 +94,10 @@ public class CuckooHashing {
                     if (array[pos] == null) {
                         array[pos] = x;
                         currentSize++;
+                        // adding insert action to the stacks
+                        insert_values_stack.push(x);
+                        is_insert_action_stack.push(true);
+
                         return true;
                     }
                     
@@ -91,11 +110,22 @@ public class CuckooHashing {
 					kick_pos=pos;
                 // none of the spots are available, kick out item in kick_pos
                 String tmp = array[kick_pos];
+
+                // adding kick action to the stacks
+                kick_values_stack.push(tmp);
+                kick_indexes_stack.push(kick_pos);
+                is_insert_action_stack.push(false);
+
                 array[kick_pos] = x;
                 x = tmp;
             }
             //insertion got into a cycle use overflow list
             this.stash.add(x);
+
+            // adding insert action to the stacks
+            insert_values_stack.push(x);
+            is_insert_action_stack.push(true);
+
             return true;
         }
     }
@@ -104,7 +134,24 @@ public class CuckooHashing {
     }
 	
 	public void undo() {
-		// TODO: implement your code here
+        if (!insert_values_stack.isEmpty())
+        {
+            remove_from_data_structure(insert_values_stack.pop());
+            is_insert_action_stack.pop();
+        }
+        while (!is_insert_action_stack.isEmpty()) {
+            boolean is_regular_insert = is_insert_action_stack.pop();
+            if (is_regular_insert) {
+                is_insert_action_stack.push(true);
+                break;
+            }
+            else
+            {
+                int index = kick_indexes_stack.pop();
+                String value = kick_values_stack.pop();
+                array[index] = value;
+            }
+        }
 	}
 
     /**
@@ -177,17 +224,31 @@ public class CuckooHashing {
      * @param x the item to remove.
      * @return true if item was found and removed
      */
-    public boolean remove(String x) {
+
+    public boolean remove_from_data_structure(String x) {
         int pos = findPos(x);
         if(pos==-1)
-        	return false;
+            return false;
         if (pos<this.capacity()) {
             array[pos] = null;
-			currentSize--;
+            currentSize--;
         } else {
-        	this.stash.remove(x);
+            this.stash.remove(x);
         }
         return true;
+    }
+
+    public boolean remove(String x) {
+        remove_from_data_structure(x);
+        clear_stacks();
+        return true;
+    }
+
+    private void clear_stacks() {
+        insert_values_stack.clear();
+        kick_values_stack.clear();
+        kick_indexes_stack.clear();
+        is_insert_action_stack.clear();
     }
 
     /**
